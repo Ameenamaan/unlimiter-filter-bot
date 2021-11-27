@@ -250,6 +250,7 @@ async def help(client, message):
                 [
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ]
+            ]
         ),
         reply_to_message_id=message.message_id
     )
