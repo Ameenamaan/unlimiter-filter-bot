@@ -217,12 +217,12 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
                 
         [[
-        InlineKeyboardButton('➕️ Add Me To Your Group ➕️', url='http://t.me/Autofilter_TGR_Bot?startgroup=true'),
-        InlineKeyboardButton("ℹ️ Help", callback_data="help"),
-        InlineKeyboardButton('🤴 Dev', url ='https://t.me/Ameen_Ameen_12'),               InlineKeyboardButton("About", callback_data="about"),
+        InlineKeyboardButton('➕️ Add Me To Your Group ➕️', url='http://t.me/oru_adaar_Filter_Bot?startgroup=true'),
+        ],[
+        InlineKeyboardButton('🤴 Dev', url ='https://t.me/Ameen_Ameen_12')
         ],[
         InlineKeyboardButton('♻️ Group', url='https://t.me/HDmoviePp'),
-        InlineKeyboardButton('⭕️ Channel', url ='https://t.me/HDmovieDp'),  
+        InlineKeyboardButton('⭕️ Channel', url ='https://t.me/HDmovieDp')
         ]]
             
         ),
