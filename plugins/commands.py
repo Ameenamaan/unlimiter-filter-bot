@@ -217,7 +217,14 @@ async def start(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Command Help", callback_data="help_data")
+        [[
+        InlineKeyboardButton('➕️ Add Me To Your Group ➕️', url='http://t.me/Autofilter_TGR_Bot?startgroup=true'),
+        InlineKeyboardButton("ℹ️ Help", callback_data="help"),
+        InlineKeyboardButton('🤴 Dev', url ='https://t.me/Ameen_Ameen_12'),               InlineKeyboardButton("About", callback_data="about"),
+        ],[
+        InlineKeyboardButton('♻️ Group', url='https://t.me/HDmoviePp'),
+        InlineKeyboardButton('⭕️ Channel', url ='https://t.me/HDmovieDp'),  
+        ]]
                 ]
             ]
         ),
@@ -243,12 +250,7 @@ async def help(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("How to Deploy?", url="https://youtu.be/hkmc3e7U7R4"),
                     InlineKeyboardButton("About Me", callback_data="about_data")
-                ],
-                [
-                    InlineKeyboardButton("BOT Channel", url="https://t.me/TroJanzHEX"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/TroJanzSupport")
                 ]
             ]
         ),
@@ -265,7 +267,7 @@ async def about(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        "SOURCE CODE", url="https://github.com/TroJanzHEX/Unlimited-Filter-Bot")
+                        "SOURCE CODE", url="https://github.com/Ameenamaan/unlimiter-filter-bot")
                 ],
                 [
                     InlineKeyboardButton("BACK", callback_data="help_data"),
