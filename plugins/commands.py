@@ -215,8 +215,7 @@ async def start(client, message):
         text=Script.START_MSG.format(message.from_user.mention),
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
-            [
-                [
+                
         [[
         InlineKeyboardButton('➕️ Add Me To Your Group ➕️', url='http://t.me/Autofilter_TGR_Bot?startgroup=true'),
         InlineKeyboardButton("ℹ️ Help", callback_data="help"),
@@ -225,8 +224,7 @@ async def start(client, message):
         InlineKeyboardButton('♻️ Group', url='https://t.me/HDmoviePp'),
         InlineKeyboardButton('⭕️ Channel', url ='https://t.me/HDmovieDp'),  
         ]]
-                ]
-            ]
+            
         ),
         reply_to_message_id=message.message_id
     )
@@ -252,7 +250,6 @@ async def help(client, message):
                 [
                     InlineKeyboardButton("About Me", callback_data="about_data")
                 ]
-            ]
         ),
         reply_to_message_id=message.message_id
     )
