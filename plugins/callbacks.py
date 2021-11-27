@@ -30,7 +30,7 @@ async def cb_handler(client, query):
         keyboard = InlineKeyboardMarkup(
         
         [[
-        InlineKeyboardButton('➕️ Add Me To Your Group ➕️', url='http://t.me/Autofilter_TGR_Bot?startgroup=true'),
+        InlineKeyboardButton('➕️ Add Me To Your Group ➕️', url='http://t.me/oru_adaar_Filter_Bot?startgroup=true'),
         ],[
         InlineKeyboardButton('🤴 Dev', url ='https://t.me/Ameen_Ameen_12')
         ],[
