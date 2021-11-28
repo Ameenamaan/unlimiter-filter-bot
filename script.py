@@ -5,7 +5,7 @@ class Script(object):
 ഞാൻ ഒരു ആടാർ ഫിൽറ്റർ ബോട്ട് ആണ്,
  എൻറെ വിധി എൻറെ അഡ്മിന്റെ തീരുമാനങ്ങളാണ്.:)
  
-    ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : Ameen_Ameen_12
+    ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : @Ameen_Ameen_12
 
 See <i>/help</i> for commands and more details.</b>
 """
